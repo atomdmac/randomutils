@@ -1,5 +1,5 @@
-Math.prototype.randomInt = function (min, max) {
-    return Math.round(Math.random() * min + (max - min));
+Math.randomInt = function (min, max) {
+    return Math.round(Math.random() * (max - min) + min);
 };
 
 Array.prototype.random = function () {
